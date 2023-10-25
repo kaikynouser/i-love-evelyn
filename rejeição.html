@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #FF6347; /* Cor de fundo vermelha */
+    color: #fff; /* Cor do texto branco */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    text-align: center; /* Centralizar o conteúdo */
+  }
+
+  #mensagem {
+    font-size: 48px; /* Tamanho grande da fonte */
+    text-transform: uppercase; /* Texto em caixa alta */
+    letter-spacing: 5px; /* Espaçamento entre letras aumentado */
+    margin-top: 100px; /* Espaço superior para centralização vertical */
+    position: relative;
+    display: inline-block;
+  }
+
+  #mensagem::after {
+    content: "😡😠😤"; /* Emojis raivosos após a mensagem */
+    font-size: 36px; /* Tamanho dos emojis */
+    position: absolute;
+    bottom: -50px; /* Posição vertical abaixo da mensagem */
+    left: 50%;
+    transform: translateX(-50%); /* Centralizar horizontalmente */
+  }
+</style>
+</head>
+<body>
+  <div id="mensagem">
+    Você não tem escolha, amor
+  </div>
+</body>
+</html>

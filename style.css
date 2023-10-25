@@ -1,0 +1,36 @@
+body {
+    background-color: #222; /* Fundo escuro */
+    color: #fff; /* Texto claro */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+   
+}
+
+.buttonsim, .buttonnao {
+    
+    background-color: #333; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    border: none;
+    border-radius: 5px; /* Cantos arredondados para os botões */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra leve nos botões */
+    cursor: pointer;
+}
+
+.buttonsim:hover, .buttonnao:hover {
+    
+    background-color: #555; /* Cor de fundo dos botões quando hover */
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Para centralizar o conteúdo horizontalmente */
+    width: 100%;
+}
+
+#question {
+    font-size: 50px;
+    color:crimson
+}
+
